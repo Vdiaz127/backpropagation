@@ -1,139 +1,170 @@
 import numpy as np
 import json
 
-# Para reproducibilidad
+# Configurar semilla para obtener mismos resultados siempre
 np.random.seed(0)
 
+# Función de activación sigmoide (transforma números a rango 0-1)
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 # -------------------------
-# Carga y Preprocesamiento de Datos
+# 1. CARGAR Y PREPARAR DATOS
 # -------------------------
-# Se asume que el archivo 'maquinas.json' contiene una lista de objetos con las claves:
-# "temperatura", "presion", "corriente" y "fallo"
-with open("maquinas.json", "r") as f:
-    data = json.load(f)
+# Leer archivo con datos de máquinas
+with open("maquinas.json", "r") as archivo:
+    datos_maquinas = json.load(archivo)
 
-# Extraer características y etiquetas
-X = []
-Y = []
-for entry in data:
-    # Se utilizan tres características: temperatura, presion y corriente
-    X.append([entry["temperatura"], entry["presion"], entry["corriente"]])
-    Y.append(entry["fallo"])
+# Listas para almacenar características y respuestas correctas
+caracteristicas = []  # [temperatura, presión, corriente]
+etiquetas_reales = []  # [1 (falla) o 0 (no falla)]
 
-X = np.array(X)
-Y = np.array(Y)
+for maquina in datos_maquinas:
+    # Agregar medidas de la máquina
+    caracteristicas.append([
+        maquina["temperatura"],
+        maquina["presion"],
+        maquina["corriente"]
+    ])
+    # Agregar si tuvo falla (1) o no (0)
+    etiquetas_reales.append(maquina["fallo"])
 
-# Normalización: se aplica min-max scaling a las características
-X_min = X.min(axis=0)
-X_max = X.max(axis=0)
-X_norm = (X - X_min) / (X_max - X_min)
+# Convertir a arrays de NumPy para operaciones matemáticas
+caracteristicas = np.array(caracteristicas)
+etiquetas_reales = np.array(etiquetas_reales)
+
+# Normalizar datos (convertir valores a rango 0-1)
+val_min = caracteristicas.min(axis=0)
+val_max = caracteristicas.max(axis=0)
+caracteristicas_normalizadas = (caracteristicas - val_min) / (val_max - val_min)
 
 # -------------------------
-# Definición de la Red Neuronal
+# 2. CREAR RED NEURONAL
 # -------------------------
-# La red tendrá:
-# - Capa de entrada: 3 neuronas (una por cada característica)
-# - Capa oculta: 4 neuronas
-# - Capa de salida: 1 neurona (clasificación binaria: fallo/no fallo)
-class RedNeuronal:
-    def __init__(self, x, y, n_hidden=4):
-        # Datos de entrenamiento
-        self.x = x  # Características de entrada
-        self.y = y  # Etiquetas de salida
-        self.n_hidden = n_hidden  # Número de neuronas en la capa oculta
-        self.n_features = x.shape[1]  # Número de características de entrada
-        # Inicialización aleatoria de pesos y sesgos (centrados en 0)
-        # Pesos de la capa oculta: matriz de dimensiones (n_hidden, n_features)
-        self.pesos1 = np.random.rand(n_hidden, self.n_features) - 0.5
-        print("Pesos 1")
-        print(self.pesos1)
-        # Sesgos para la capa oculta: vector de tamaño n_hidden
-        self.sesgos1 = np.random.rand(n_hidden) - 0.5
-        print("Sesgos 1")
-        print(self.sesgos1)
-        # Pesos de la capa de salida: vector de tamaño n_hidden (cada neurona oculta aporta a la salida)
-        self.pesos2 = np.random.rand(n_hidden) - 0.5
-        print("Pesos 2")
-        print(self.pesos2)
-        # Sesgo para la neurona de salida: escalar
-        self.sesgos2 = np.random.rand(1) - 0.5
-        print("Sesgo 2")
-        print(self.sesgos2)
+class RedDeteccionFallas:
+    def __init__(self, datos_entrada, respuestas_reales, neuronas_ocultas=4):
+        # Datos para entrenamiento
+        self.datos_entrenamiento = datos_entrada    # Características normalizadas
+        self.respuestas_reales = respuestas_reales    # Respuestas correctas (0 o 1)
+        self.neuronas_ocultas = neuronas_ocultas      # Número de neuronas en capa oculta
+        self.caracteristicas_entrada = datos_entrada.shape[1]  # Número de características (3)
+        
+        # Inicializar parámetros aleatoriamente (pesos y sesgos)
+        # Pesos entrada -> oculta (3 características -> 4 neuronas)
+        self.pesos_entrada_oculta = np.random.rand(neuronas_ocultas, self.caracteristicas_entrada) - 0.5
+        print("Pesos iniciales entrada-oculta:")
+        print(self.pesos_entrada_oculta)
+        
+        # Sesgos capa oculta (1 por neurona oculta)
+        self.sesgos_oculta = np.random.rand(neuronas_ocultas) - 0.5
+        print("\nSesgos iniciales capa oculta:")
+        print(self.sesgos_oculta)
+        
+        # Pesos oculta -> salida (4 neuronas -> 1 salida)
+        self.pesos_oculta_salida = np.random.rand(neuronas_ocultas) - 0.5
+        print("\nPesos iniciales oculta-salida:")
+        print(self.pesos_oculta_salida)
+        
+        # Sesgo capa salida (generar directamente un escalar)
+        self.sesgo_salida = np.random.rand() - 0.5
+        print("\nSesgo inicial capa salida:")
+        print(self.sesgo_salida)
 
-    def entrenamiento(self, tasa_aprendizaje=0.1, epocas=1000):
-        for epoch in range(epocas):
-            error_total = 0.0
-            # Iterar sobre cada muestra del dataset
-            for i in range(self.x.shape[0]):
-                # -------------------------
-                # Propagación hacia adelante
-                # -------------------------
-                # Capa oculta: calcular la salida de cada neurona
-                hidden_outputs = np.zeros(self.n_hidden)
-                for j in range(self.n_hidden):
-                    # Suma ponderada de las entradas + sesgo para la neurona j
-                    z = np.dot(self.x[i], self.pesos1[j]) + self.sesgos1[j]
-                    hidden_outputs[j] = sigmoid(z)
-                # Capa de salida: combinación lineal de las salidas ocultas + sesgo
-                suma_s = np.dot(hidden_outputs, self.pesos2) + self.sesgos2[0]
-                y_pred = sigmoid(suma_s)
-                
-                # Cálculo del error cuadrático para la muestra i
-                error = 0.5 * (self.y[i] - y_pred) ** 2
-                error_total += error
-                
-                # -------------------------
-                # Backpropagation
-                # -------------------------
-                # Capa de salida: calcular el delta (error) de la neurona de salida
-                delta_output = (y_pred - self.y[i]) * y_pred * (1 - y_pred)
-                
-                # Actualización de pesos y sesgo de la capa de salida
-                for j in range(self.n_hidden):
-                    grad_pesos2 = delta_output * hidden_outputs[j]
-                    self.pesos2[j] -= tasa_aprendizaje * grad_pesos2
-                print("gradiente de peso2")
-                print(grad_pesos2)
-                self.sesgos2[0] -= tasa_aprendizaje * delta_output
-                
-                # Capa oculta: propagar el error hacia atrás
-                for j in range(self.n_hidden):
-                    delta_hidden = delta_output * self.pesos2[j] * hidden_outputs[j] * (1 - hidden_outputs[j])
-                    # Actualizar pesos de la neurona oculta j
-                    for k in range(self.n_features):
-                        self.pesos1[j, k] -= tasa_aprendizaje * delta_hidden * self.x[i][k]
-                    # Actualizar el sesgo de la neurona oculta j
-                    self.sesgos1[j] -= tasa_aprendizaje * delta_hidden
+    def entrenar(self, ritmo_aprendizaje=0.1, vueltas_entrenamiento=1000):
+        for vuelta in range(vueltas_entrenamiento):
+            error_acumulado = 0.0
             
-            # Imprimir el error total cada 100 épocas
-            if epoch % 100 == 0:
-                print(f'Época {epoch}: Error total = {error_total}')
+            # Procesar cada máquina del dataset
+            for i in range(self.datos_entrenamiento.shape[0]):
+                # ----------------------------------
+                # PASO 1: Propagación hacia adelante
+                # ----------------------------------
+                # Calcular salida de la capa oculta
+                salida_oculta = np.zeros(self.neuronas_ocultas)
+                for neurona in range(self.neuronas_ocultas):
+                    # Sumar: (entradas * pesos) + sesgo
+                    suma_ponderada = (np.dot(self.datos_entrenamiento[i],
+                                               self.pesos_entrada_oculta[neurona])
+                                      + float(self.sesgos_oculta[neurona]))
+                    # Aplicar función de activación
+                    salida_oculta[neurona] = sigmoid(suma_ponderada)
+                
+                # Calcular predicción final
+                suma_salida = np.dot(salida_oculta, self.pesos_oculta_salida) + self.sesgo_salida
+                prediccion = float(sigmoid(suma_salida))
+                
+                # Calcular error (diferencia entre predicción y realidad)
+                error = 0.5 * (self.respuestas_reales[i] - prediccion) ** 2
+                error_acumulado += error
+                
+                # ----------------------------------
+                # PASO 2: Retropropagación de errores
+                # ----------------------------------
+                # Calcular error en la capa de salida
+                error_salida = (prediccion - self.respuestas_reales[i]) * prediccion * (1 - prediccion)
+                
+                # Ajustar pesos y sesgos de SALIDA
+                for neurona in range(self.neuronas_ocultas):
+                    ajuste_peso = error_salida * salida_oculta[neurona]
+                    self.pesos_oculta_salida[neurona] = (float(self.pesos_oculta_salida[neurona])
+                                                         - ritmo_aprendizaje * ajuste_peso)
+                
+                # Ajustar sesgo de salida
+                self.sesgo_salida = self.sesgo_salida - ritmo_aprendizaje * error_salida
+                
+                # Ajustar pesos y sesgos de la capa OCULTA
+                for neurona in range(self.neuronas_ocultas):
+                    error_oculto = (error_salida *
+                                    float(self.pesos_oculta_salida[neurona]) *
+                                    salida_oculta[neurona] *
+                                    (1 - salida_oculta[neurona]))
+                    
+                    # Ajustar pesos ENTRADA -> OCULTA
+                    for caracteristica in range(self.caracteristicas_entrada):
+                        ajuste = ritmo_aprendizaje * error_oculto * self.datos_entrenamiento[i][caracteristica]
+                        self.pesos_entrada_oculta[neurona, caracteristica] = (
+                            float(self.pesos_entrada_oculta[neurona, caracteristica]) - ajuste)
+                    
+                    # Ajustar sesgo de la capa oculta
+                    self.sesgos_oculta[neurona] = (float(self.sesgos_oculta[neurona])
+                                                   - ritmo_aprendizaje * error_oculto)
+            
+            # Mostrar progreso cada 100 vueltas
+            if vuelta % 100 == 0:
+                print(f'Vuelta {vuelta}: Error acumulado = {error_acumulado}')
 
-    def clasificacion(self, entrada):
-        # Propagación hacia adelante para evaluar una nueva instancia
-        hidden_outputs = np.zeros(self.n_hidden)
-        for j in range(self.n_hidden):
-            z = np.dot(entrada, self.pesos1[j]) + self.sesgos1[j]
-            hidden_outputs[j] = sigmoid(z)
-        suma_s = np.dot(hidden_outputs, self.pesos2) + self.sesgos2[0]
-        y_pred = sigmoid(suma_s)
-        print("resultado de predicion:" + str(y_pred))
-        return round(y_pred)
+    def predecir(self, nueva_medida):
+        # Calcular salida de la capa oculta para la nueva medida
+        salida_oculta = np.zeros(self.neuronas_ocultas)
+        for neurona in range(self.neuronas_ocultas):
+            suma_ponderada = (np.dot(nueva_medida, self.pesos_entrada_oculta[neurona])
+                              + float(self.sesgos_oculta[neurona]))
+            salida_oculta[neurona] = sigmoid(suma_ponderada)
+        
+        # Calcular la predicción final
+        suma_salida = np.dot(salida_oculta, self.pesos_oculta_salida) + self.sesgo_salida
+        probabilidad_falla = float(sigmoid(suma_salida))
+        print(f"Probabilidad de falla calculada: {probabilidad_falla}")
+        
+        # Redondear a 0 (no falla) o 1 (falla)
+        return round(probabilidad_falla)
 
 # -------------------------
-# Entrenamiento y Evaluación
+# 3. ENTRENAR Y USAR LA RED
 # -------------------------
-# Crear la red neuronal usando los datos normalizados
-red_neuronal = RedNeuronal(X_norm, Y, n_hidden=4)
-red_neuronal.entrenamiento(tasa_aprendizaje=0.1, epocas=1000)
+# Crear red neuronal con 4 neuronas ocultas
+detector_fallas = RedDeteccionFallas(caracteristicas_normalizadas, etiquetas_reales, 4)
 
-# Ejemplo de clasificación:
-# Definir una nueva instancia con valores originales de temperatura, presión y corriente.
-nueva_instancia = [90, 10, 25]  # Ejemplo: valores de temperatura, presión y corriente
-# Normalizar la nueva instancia usando los mismos parámetros del dataset original
-nueva_instancia_norm = (np.array(nueva_instancia) - X_min) / (X_max - X_min)
-resultado = red_neuronal.clasificacion(nueva_instancia_norm)
-print(f'\nResultado de la clasificación para {nueva_instancia}: {resultado}')
+# Entrenar durante 1000 vueltas con ritmo de aprendizaje 0.1
+detector_fallas.entrenar(ritmo_aprendizaje=0.1, vueltas_entrenamiento=1000)
+
+# Ejemplo de predicción para una nueva máquina
+nueva_maquina = [90, 10, 25]  # Valores originales (no normalizados)
+
+# Normalizar usando los mismos parámetros que los datos originales
+nueva_maquina_normalizada = (np.array(nueva_maquina) - val_min) / (val_max - val_min)
+
+# Predecir si tendrá falla
+resultado = detector_fallas.predecir(nueva_maquina_normalizada)
+print(f'\nPara la máquina con valores {nueva_maquina}:')
+print('¡ALERTA DE FALLA! 🔴' if resultado == 1 else 'Estado normal ✅')

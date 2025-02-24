@@ -1,602 +1,1802 @@
 [
     {
         "temperatura":54.9671415301,
-        "presion":92.9231462897,
-        "corriente":15.7155747207,
+        "presion":95.8550249454,
+        "corriente":16.5139772333,
         "fallo":0
     },
     {
         "temperatura":48.6173569883,
-        "presion":97.8967733862,
-        "corriente":16.1215690527,
+        "presion":97.199094799,
+        "corriente":13.1556693516,
         "fallo":0
     },
     {
         "temperatura":56.476885381,
-        "presion":98.2864274174,
-        "corriente":17.1661024864,
+        "presion":103.7364680256,
+        "corriente":16.7392118402,
         "fallo":0
     },
     {
         "temperatura":65.2302985641,
-        "presion":95.9886136539,
-        "corriente":17.1076041041,
+        "presion":103.0518513272,
+        "corriente":17.7112757176,
         "fallo":0
     },
     {
         "temperatura":47.6584662528,
-        "presion":99.1935714417,
-        "corriente":12.2446612641,
+        "presion":99.8954920302,
+        "corriente":15.8268698064,
         "fallo":0
     },
     {
         "temperatura":47.6586304305,
-        "presion":102.0202542841,
-        "corriente":13.1243499202,
+        "presion":100.5866369165,
+        "corriente":18.7535916251,
         "fallo":0
     },
     {
         "temperatura":65.7921281551,
-        "presion":109.4309295061,
-        "corriente":16.0300705344,
+        "presion":106.3883244789,
+        "corriente":13.4524216018,
         "fallo":0
     },
     {
         "temperatura":57.6743472915,
-        "presion":100.8728890642,
-        "corriente":16.0275719018,
+        "presion":97.0421430558,
+        "corriente":12.5106905934,
         "fallo":0
     },
     {
         "temperatura":45.3052561407,
-        "presion":101.2877519536,
-        "corriente":16.0300953726,
+        "presion":102.7354869059,
+        "corriente":11.4425595022,
         "fallo":0
     },
     {
         "temperatura":55.4256004359,
-        "presion":99.6277704212,
-        "corriente":22.7054629813,
+        "presion":98.9890367378,
+        "corriente":17.992088623,
         "fallo":0
     },
     {
         "temperatura":45.3658230719,
-        "presion":90.4061439235,
-        "corriente":16.1417810214,
+        "presion":98.9115939839,
+        "corriente":16.3087313127,
         "fallo":0
     },
     {
         "temperatura":45.3427024643,
-        "presion":99.8674306228,
-        "corriente":17.2711312804,
+        "presion":105.4938842599,
+        "corriente":14.8888306582,
         "fallo":0
     },
     {
         "temperatura":52.4196227157,
-        "presion":100.3011510497,
-        "corriente":16.908003527,
+        "presion":104.1270817449,
+        "corriente":15.5599372526,
         "fallo":0
     },
     {
         "temperatura":30.8671975534,
-        "presion":112.3162105624,
-        "corriente":16.3027825026,
+        "presion":104.06754818,
+        "corriente":12.7490219054,
         "fallo":0
     },
     {
         "temperatura":32.7508216749,
-        "presion":99.0381951761,
-        "corriente":14.3694615107,
+        "presion":106.5273940358,
+        "corriente":19.8915039592,
         "fallo":0
     },
     {
         "temperatura":44.3771247076,
-        "presion":101.5077367117,
-        "corriente":16.517938441,
+        "presion":100.1050192082,
+        "corriente":15.258442364,
         "fallo":0
     },
     {
         "temperatura":39.8716887967,
-        "presion":99.8264411515,
-        "corriente":13.4543495709,
+        "presion":103.4097648565,
+        "corriente":15.2187895892,
         "fallo":0
     },
     {
         "temperatura":53.142473326,
-        "presion":94.1566098119,
-        "corriente":14.5263627865,
+        "presion":98.448666217,
+        "corriente":16.4515332478,
         "fallo":0
     },
     {
         "temperatura":40.9197592448,
-        "presion":105.7141140726,
-        "corriente":14.0292729043,
+        "presion":101.6208317624,
+        "corriente":15.9620184635,
         "fallo":0
     },
     {
         "temperatura":35.8769629866,
-        "presion":103.7596651634,
-        "corriente":15.1637482788,
+        "presion":99.3492847282,
+        "corriente":15.4477680486,
         "fallo":0
     },
     {
         "temperatura":64.6564876892,
-        "presion":103.9551597352,
-        "corriente":19.6293171333,
+        "presion":100.484979825,
+        "corriente":13.4190510891,
         "fallo":0
     },
     {
         "temperatura":47.7422369951,
-        "presion":95.453062726,
-        "corriente":11.2654696148,
+        "presion":102.9757851272,
+        "corriente":15.9429367143,
         "fallo":0
     },
     {
         "temperatura":50.6752820469,
-        "presion":107.0139715547,
-        "corriente":16.3725203807,
+        "presion":95.9088965838,
+        "corriente":18.764048993,
         "fallo":0
     },
     {
         "temperatura":35.7525181379,
-        "presion":92.990744686,
-        "corriente":11.7745682576,
+        "presion":110.4619363784,
+        "corriente":17.6908400923,
         "fallo":0
     },
     {
         "temperatura":44.5561727547,
-        "presion":102.934285469,
-        "corriente":14.0561362684,
+        "presion":94.9699130925,
+        "corriente":18.1863732533,
         "fallo":0
     },
     {
         "temperatura":51.1092258971,
-        "presion":110.952278129,
-        "corriente":17.1779011939,
+        "presion":93.9290569361,
+        "corriente":13.9775686471,
         "fallo":0
     },
     {
         "temperatura":38.4900642258,
-        "presion":95.0473183743,
-        "corriente":15.1285600382,
+        "presion":105.7905543675,
+        "corriente":13.0207903595,
         "fallo":0
     },
     {
         "temperatura":53.7569801835,
-        "presion":97.168511352,
-        "corriente":12.8445104441,
+        "presion":103.9583134698,
+        "corriente":14.7484261598,
         "fallo":0
     },
     {
         "temperatura":43.9936131008,
-        "presion":100.4982568254,
-        "corriente":13.5693925815,
+        "presion":103.1205990853,
+        "corriente":15.1114498246,
         "fallo":0
     },
     {
         "temperatura":47.0830625021,
-        "presion":97.4826217294,
-        "corriente":16.3591954979,
+        "presion":103.1417275463,
+        "corriente":17.1883830369,
         "fallo":0
     },
     {
         "temperatura":43.9829338777,
-        "presion":92.2466828447,
-        "corriente":13.5392667366,
+        "presion":99.9387661358,
+        "corriente":11.6150707406,
         "fallo":0
     },
     {
         "temperatura":68.5227818451,
-        "presion":100.342814874,
-        "corriente":15.4329171792,
+        "presion":95.5137281426,
+        "corriente":18.0591006389,
         "fallo":0
     },
     {
         "temperatura":49.8650277526,
-        "presion":94.6884814314,
-        "corriente":15.0911436798,
+        "presion":100.379022791,
+        "corriente":14.6839842028,
         "fallo":0
     },
     {
         "temperatura":39.4228907104,
-        "presion":102.3679621532,
-        "corriente":13.6967993048,
+        "presion":96.6141914424,
+        "corriente":14.1462378601,
         "fallo":0
     },
     {
         "temperatura":58.225449121,
-        "presion":95.4028788288,
-        "corriente":19.2878881787,
+        "presion":104.8755986671,
+        "corriente":12.9757912495,
         "fallo":0
     },
     {
         "temperatura":37.7915635003,
-        "presion":107.7496720251,
-        "corriente":16.2678380446,
+        "presion":99.2647130925,
+        "corriente":11.6902866563,
         "fallo":0
     },
     {
         "temperatura":52.08863595,
-        "presion":96.0837335383,
-        "corriente":10.9497148267,
+        "presion":95.872514016,
+        "corriente":16.6463411679,
         "fallo":0
     },
     {
         "temperatura":30.4032987612,
-        "presion":98.389692419,
-        "corriente":15.3729086295,
+        "presion":98.3930707917,
+        "corriente":15.1466359344,
         "fallo":0
     },
     {
         "temperatura":36.718139511,
-        "presion":104.0675860868,
-        "corriente":13.6764270705,
+        "presion":102.0646572714,
+        "corriente":12.4200782005,
         "fallo":0
     },
     {
         "temperatura":51.9686123587,
-        "presion":93.8456784178,
-        "corriente":16.7048666696,
+        "presion":97.181377236,
+        "corriente":12.4098424559,
         "fallo":0
     },
     {
         "temperatura":57.3846658,
-        "presion":101.137299673,
-        "corriente":13.4149585231,
+        "presion":95.8888980222,
+        "corriente":14.3284306014,
         "fallo":0
     },
     {
         "temperatura":51.7136828119,
-        "presion":106.5357137714,
-        "corriente":14.7705271171,
+        "presion":101.2184360575,
+        "corriente":18.3380430506,
         "fallo":0
     },
     {
         "temperatura":48.8435171761,
-        "presion":91.9625838272,
-        "corriente":16.009974558,
+        "presion":101.2248328555,
+        "corriente":14.4808172973,
         "fallo":0
     },
     {
         "temperatura":46.9889630441,
-        "presion":100.9231692927,
-        "corriente":16.7315103883,
+        "presion":97.4652841231,
+        "corriente":11.9937140938,
         "fallo":0
     },
     {
         "temperatura":35.2147800963,
-        "presion":101.2994139712,
-        "corriente":12.5994071859,
+        "presion":97.6448084719,
+        "corriente":14.5085138718,
         "fallo":0
     },
     {
         "temperatura":42.8015579161,
-        "presion":103.9091143589,
-        "corriente":14.3309975283,
+        "presion":101.1602496868,
+        "corriente":14.4545528605,
         "fallo":0
     },
     {
         "temperatura":45.3936122904,
-        "presion":93.8152464456,
-        "corriente":14.0501093777,
+        "presion":92.7595782925,
+        "corriente":9.6062267141,
         "fallo":0
     },
     {
         "temperatura":60.5712222622,
-        "presion":93.3977169346,
-        "corriente":13.6933415349,
+        "presion":92.9626811281,
+        "corriente":14.891410267,
         "fallo":0
     },
     {
         "temperatura":53.4361828957,
-        "presion":102.6097078281,
-        "corriente":18.5309084806,
+        "presion":96.4077788937,
+        "corriente":14.5381309396,
         "fallo":0
     },
     {
         "temperatura":32.3695984464,
-        "presion":101.4849233662,
-        "corriente":15.8099634219,
+        "presion":98.9327642414,
+        "corriente":16.3924127296,
         "fallo":0
     },
     {
-        "temperatura":86.620419847,
-        "presion":72.0039428028,
-        "corriente":21.217348137,
-        "fallo":1
-    },
-    {
-        "temperatura":83.0745885979,
-        "presion":72.771585676,
-        "corriente":27.7535858412,
-        "fallo":1
-    },
-    {
-        "temperatura":81.6153899985,
-        "presion":64.5598022274,
-        "corriente":31.366468591,
-        "fallo":1
-    },
-    {
-        "temperatura":88.0583814442,
-        "presion":71.8580295773,
-        "corriente":28.0973957817,
-        "fallo":1
-    },
-    {
-        "temperatura":90.1549976125,
-        "presion":72.3445797864,
-        "corriente":20.4418901021,
-        "fallo":1
-    },
-    {
-        "temperatura":89.6564005956,
-        "presion":64.2851886558,
-        "corriente":23.5472977814,
-        "fallo":1
-    },
-    {
-        "temperatura":80.8039123839,
-        "presion":84.9261960892,
-        "corriente":28.8007334476,
-        "fallo":1
-    },
-    {
-        "temperatura":83.4539381207,
-        "presion":73.7906633673,
-        "corriente":22.8769916031,
-        "fallo":1
-    },
-    {
-        "temperatura":86.656317157,
-        "presion":60.4695720224,
-        "corriente":26.3314582844,
-        "fallo":1
-    },
-    {
-        "temperatura":89.8777256356,
-        "presion":75.2524288691,
-        "corriente":27.3239021603,
-        "fallo":1
-    },
-    {
-        "temperatura":82.6041288108,
-        "presion":62.2025466382,
-        "corriente":22.2192085853,
-        "fallo":1
-    },
-    {
-        "temperatura":84.0717051167,
-        "presion":76.2966768299,
-        "corriente":24.8214239318,
-        "fallo":1
-    },
-    {
-        "temperatura":79.46832513,
-        "presion":79.2687646321,
-        "corriente":15.2761979798,
+        "temperatura":53.2408396939,
+        "presion":101.554537828,
+        "corriente":18.6979121899,
         "fallo":0
     },
     {
-        "temperatura":79.0189668796,
-        "presion":63.4345414532,
-        "corriente":21.926837076,
-        "fallo":1
-    },
-    {
-        "temperatura":89.062629112,
-        "presion":77.707009034,
-        "corriente":24.2422955458,
-        "fallo":1
-    },
-    {
-        "temperatura":91.7812001429,
-        "presion":73.3022474155,
-        "corriente":21.2566504541,
-        "fallo":1
-    },
-    {
-        "temperatura":84.6399493921,
-        "presion":76.57648128,
-        "corriente":29.8972339118,
-        "fallo":1
-    },
-    {
-        "temperatura":90.0176644895,
-        "presion":85.1743438612,
-        "corriente":20.7095758661,
-        "fallo":1
-    },
-    {
-        "temperatura":86.8081801252,
-        "presion":68.036895072,
-        "corriente":23.6798665399,
-        "fallo":1
-    },
-    {
-        "temperatura":81.774401227,
-        "presion":63.9701106851,
-        "corriente":25.3922217319,
-        "fallo":1
-    },
-    {
-        "temperatura":86.8069780275,
-        "presion":62.883884563,
-        "corriente":29.3238198672,
-        "fallo":1
-    },
-    {
-        "temperatura":92.6901828323,
-        "presion":63.4735177203,
-        "corriente":20.6924135465,
-        "fallo":1
-    },
-    {
-        "temperatura":84.8208698045,
-        "presion":69.3831863247,
-        "corriente":28.4894912565,
-        "fallo":1
-    },
-    {
-        "temperatura":92.8232182791,
-        "presion":72.7292157985,
-        "corriente":25.0306991831,
-        "fallo":1
-    },
-    {
-        "temperatura":71.9012744796,
-        "presion":72.2135263946,
-        "corriente":22.0554740469,
-        "fallo":1
-    },
-    {
-        "temperatura":96.575220035,
-        "presion":68.2718324904,
-        "corriente":5.6931552114,
-        "fallo":1
-    },
-    {
-        "temperatura":90.6963765459,
-        "presion":60.1300189188,
-        "corriente":5.2985895434,
-        "fallo":1
-    },
-    {
-        "temperatura":87.6079411963,
-        "presion":74.5353407716,
-        "corriente":4.0996746843,
-        "fallo":1
-    },
-    {
-        "temperatura":90.7340862123,
-        "presion":57.3534316676,
-        "corriente":5.1047031275,
-        "fallo":1
-    },
-    {
-        "temperatura":74.0994486832,
-        "presion":87.2016916659,
-        "corriente":4.4220296047,
+        "temperatura":46.1491771958,
+        "presion":107.3767810847,
+        "corriente":17.2531300591,
         "fallo":0
     },
     {
-        "temperatura":88.2426248973,
-        "presion":66.2566734777,
-        "corriente":5.1702760179,
+        "temperatura":43.2307799969,
+        "presion":104.288298116,
+        "corriente":14.4622226189,
+        "fallo":0
+    },
+    {
+        "temperatura":56.1167628884,
+        "presion":99.2003073502,
+        "corriente":12.7869481825,
+        "fallo":0
+    },
+    {
+        "temperatura":60.309995225,
+        "presion":99.9049189605,
+        "corriente":20.1467196065,
+        "fallo":0
+    },
+    {
+        "temperatura":59.3128011912,
+        "presion":94.9873531768,
+        "corriente":15.118436868,
+        "fallo":0
+    },
+    {
+        "temperatura":41.6078247678,
+        "presion":99.90743432,
+        "corriente":15.0278585838,
+        "fallo":0
+    },
+    {
+        "temperatura":46.9078762415,
+        "presion":98.5567068054,
+        "corriente":14.9517498258,
+        "fallo":0
+    },
+    {
+        "temperatura":53.312634314,
+        "presion":101.6135928017,
+        "corriente":15.3961695215,
+        "fallo":0
+    },
+    {
+        "temperatura":59.7554512712,
+        "presion":95.8638452822,
+        "corriente":14.7112791762,
+        "fallo":0
+    },
+    {
+        "temperatura":45.2082576215,
+        "presion":102.5967325712,
+        "corriente":13.8526759862,
+        "fallo":0
+    },
+    {
+        "temperatura":48.1434102334,
+        "presion":107.663694565,
+        "corriente":13.9062821175,
+        "fallo":0
+    },
+    {
+        "temperatura":38.9366502599,
+        "presion":99.4561992577,
+        "corriente":14.9344934596,
+        "fallo":0
+    },
+    {
+        "temperatura":38.0379337592,
+        "presion":102.0085586105,
+        "corriente":13.9131504577,
+        "fallo":0
+    },
+    {
+        "temperatura":58.1252582239,
+        "presion":103.4507199586,
+        "corriente":13.5743084346,
+        "fallo":0
+    },
+    {
+        "temperatura":63.5624002857,
+        "presion":97.9938976406,
+        "corriente":15.2128604554,
+        "fallo":0
+    },
+    {
+        "temperatura":49.2798987842,
+        "presion":101.1204624091,
+        "corriente":14.4900455652,
+        "fallo":0
+    },
+    {
+        "temperatura":60.0353289789,
+        "presion":100.0629620039,
+        "corriente":18.0079859772,
+        "fallo":0
+    },
+    {
+        "temperatura":53.6163602505,
+        "presion":100.4883804927,
+        "corriente":9.6980603832,
+        "fallo":0
+    },
+    {
+        "temperatura":43.5488024539,
+        "presion":96.1349510807,
+        "corriente":17.1830137038,
+        "fallo":0
+    },
+    {
+        "temperatura":53.6139560551,
+        "presion":100.1225508713,
+        "corriente":17.492170385,
+        "fallo":0
+    },
+    {
+        "temperatura":65.3803656647,
+        "presion":102.4899914562,
+        "corriente":10.8532195352,
+        "fallo":0
+    },
+    {
+        "temperatura":49.6417396089,
+        "presion":107.255718039,
+        "corriente":14.3146248118,
+        "fallo":0
+    },
+    {
+        "temperatura":65.6464365581,
+        "presion":104.7963541304,
+        "corriente":14.257118268,
+        "fallo":0
+    },
+    {
+        "temperatura":23.8025489591,
+        "presion":110.7659122876,
+        "corriente":12.1849766106,
+        "fallo":0
+    },
+    {
+        "temperatura":58.2190250438,
+        "presion":96.1632621856,
+        "corriente":13.4443666248,
+        "fallo":0
+    },
+    {
+        "temperatura":50.8704706824,
+        "presion":104.3616031836,
+        "corriente":12.7788483091,
+        "fallo":0
+    },
+    {
+        "temperatura":47.0099264953,
+        "presion":100.9167100287,
+        "corriente":18.5045408868,
+        "fallo":0
+    },
+    {
+        "temperatura":50.9176077654,
+        "presion":110.9490146661,
+        "corriente":16.8713567863,
+        "fallo":0
+    },
+    {
+        "temperatura":30.124310854,
+        "presion":95.9585085732,
+        "corriente":17.54311019,
+        "fallo":0
+    },
+    {
+        "temperatura":47.8032811216,
+        "presion":95.8013907891,
+        "corriente":16.4433441281,
+        "fallo":0
+    },
+    {
+        "temperatura":53.5711257151,
+        "presion":97.0030367728,
+        "corriente":12.7418964576,
+        "fallo":0
+    },
+    {
+        "temperatura":64.7789404474,
+        "presion":89.3805213785,
+        "corriente":13.9509594674,
+        "fallo":0
+    },
+    {
+        "temperatura":44.8172978173,
+        "presion":97.3712248916,
+        "corriente":15.9787491225,
+        "fallo":0
+    },
+    {
+        "temperatura":41.9150639711,
+        "presion":96.2043366922,
+        "corriente":12.5557443822,
+        "fallo":0
+    },
+    {
+        "temperatura":44.9824295642,
+        "presion":100.7519689324,
+        "corriente":16.4259968603,
+        "fallo":0
+    },
+    {
+        "temperatura":59.154021177,
+        "presion":101.7087798789,
+        "corriente":14.5193492037,
+        "fallo":0
+    },
+    {
+        "temperatura":53.2875110966,
+        "presion":109.3808541961,
+        "corriente":14.2503583849,
+        "fallo":0
+    },
+    {
+        "temperatura":44.7023979623,
+        "presion":104.7521191909,
+        "corriente":16.4219199364,
+        "fallo":0
+    },
+    {
+        "temperatura":55.1326743311,
+        "presion":97.1154817217,
+        "corriente":15.888526623,
+        "fallo":0
+    },
+    {
+        "temperatura":50.9707754935,
+        "presion":95.5079266433,
+        "corriente":14.2780676684,
+        "fallo":0
+    },
+    {
+        "temperatura":59.6864499053,
+        "presion":102.4595958575,
+        "corriente":17.3186596067,
+        "fallo":0
+    },
+    {
+        "temperatura":42.9794690612,
+        "presion":93.3988339649,
+        "corriente":12.8378733448,
+        "fallo":0
+    },
+    {
+        "temperatura":46.723378534,
+        "presion":109.1572938293,
+        "corriente":16.2318712139,
+        "fallo":0
+    },
+    {
+        "temperatura":46.0789184687,
+        "presion":105.8972006036,
+        "corriente":16.1862025159,
+        "fallo":0
+    },
+    {
+        "temperatura":35.3648505187,
+        "presion":97.6541217395,
+        "corriente":14.3809071214,
+        "fallo":0
+    },
+    {
+        "temperatura":52.9612027706,
+        "presion":91.4343273545,
+        "corriente":15.6522660445,
+        "fallo":0
+    },
+    {
+        "temperatura":52.6105527218,
+        "presion":106.7693618708,
+        "corriente":12.4977728472,
+        "fallo":0
+    },
+    {
+        "temperatura":50.0511345664,
+        "presion":99.4273007737,
+        "corriente":16.8480540384,
+        "fallo":0
+    },
+    {
+        "temperatura":47.6541286662,
+        "presion":106.1890815599,
+        "corriente":14.6301957271,
+        "fallo":0
+    },
+    {
+        "temperatura":35.8462925795,
+        "presion":92.027861706,
+        "corriente":13.954553959,
+        "fallo":0
+    },
+    {
+        "temperatura":45.7935467723,
+        "presion":97.0031248852,
+        "corriente":17.0980184517,
+        "fallo":0
+    },
+    {
+        "temperatura":46.5728548347,
+        "presion":100.0262184986,
+        "corriente":13.5913126189,
+        "fallo":0
+    },
+    {
+        "temperatura":41.9772273078,
+        "presion":100.2349029688,
+        "corriente":12.1830774073,
+        "fallo":0
+    },
+    {
+        "temperatura":48.3871428833,
+        "presion":97.7496726426,
+        "corriente":11.886741653,
+        "fallo":0
+    },
+    {
+        "temperatura":54.0405085681,
+        "presion":103.1142496617,
+        "corriente":16.2120199027,
+        "fallo":0
+    },
+    {
+        "temperatura":68.8618590121,
+        "presion":94.6618978531,
+        "corriente":12.439141295,
+        "fallo":0
+    },
+    {
+        "temperatura":51.7457781283,
+        "presion":99.2881025749,
+        "corriente":18.509588364,
+        "fallo":0
+    },
+    {
+        "temperatura":52.5755039072,
+        "presion":100.6014781586,
+        "corriente":10.8361411842,
+        "fallo":0
+    },
+    {
+        "temperatura":49.2555408423,
+        "presion":102.5721941703,
+        "corriente":18.3929127366,
+        "fallo":0
+    },
+    {
+        "temperatura":30.812287847,
+        "presion":103.5580743904,
+        "corriente":15.4220349344,
+        "fallo":0
+    },
+    {
+        "temperatura":49.7348612455,
+        "presion":94.3767895408,
+        "corriente":14.8065737763,
+        "fallo":0
+    },
+    {
+        "temperatura":50.6023020994,
+        "presion":92.3294291463,
+        "corriente":13.9101618264,
+        "fallo":0
+    },
+    {
+        "temperatura":74.6324211249,
+        "presion":106.3883841095,
+        "corriente":15.7982722287,
+        "fallo":0
+    },
+    {
+        "temperatura":48.0763903522,
+        "presion":101.6615700599,
+        "corriente":14.9247305952,
+        "fallo":0
+    },
+    {
+        "temperatura":53.0154734233,
+        "presion":96.2575673172,
+        "corriente":17.206603764,
+        "fallo":0
+    },
+    {
+        "temperatura":49.6528823029,
+        "presion":107.7557598776,
+        "corriente":15.2284552973,
+        "fallo":0
+    },
+    {
+        "temperatura":38.3132196238,
+        "presion":100.5783731715,
+        "corriente":15.3006035229,
+        "fallo":0
+    },
+    {
+        "temperatura":61.4282281452,
+        "presion":105.8964859203,
+        "corriente":14.2727755756,
+        "fallo":0
+    },
+    {
+        "temperatura":57.5193303269,
+        "presion":100.3375924071,
+        "corriente":14.8861087526,
+        "fallo":0
+    },
+    {
+        "temperatura":57.9103194704,
+        "presion":110.3037396244,
+        "corriente":15.6156035378,
+        "fallo":0
+    },
+    {
+        "temperatura":40.9061254521,
+        "presion":108.7767042122,
+        "corriente":11.5796632147,
+        "fallo":0
+    },
+    {
+        "temperatura":64.0279431094,
+        "presion":98.7551792576,
+        "corriente":12.3036291558,
+        "fallo":0
+    },
+    {
+        "temperatura":35.9814893721,
+        "presion":104.8578547548,
+        "corriente":16.486528188,
+        "fallo":0
+    },
+    {
+        "temperatura":55.868570938,
+        "presion":103.2268797479,
+        "corriente":15.3417308763,
+        "fallo":0
+    },
+    {
+        "temperatura":71.9045562581,
+        "presion":106.8431577877,
+        "corriente":14.6320333273,
+        "fallo":0
+    },
+    {
+        "temperatura":40.0946367487,
+        "presion":95.1753826971,
+        "corriente":15.0368678661,
+        "fallo":0
+    },
+    {
+        "temperatura":44.337022704,
+        "presion":103.4302573,
+        "corriente":15.6951634107,
+        "fallo":0
+    },
+    {
+        "temperatura":50.9965136509,
+        "presion":105.2921224342,
+        "corriente":13.9204806394,
+        "fallo":0
+    },
+    {
+        "temperatura":44.9652434588,
+        "presion":91.2063025679,
+        "corriente":13.4433905492,
+        "fallo":0
+    },
+    {
+        "temperatura":34.4933656893,
+        "presion":94.0837074367,
+        "corriente":15.3916905102,
+        "fallo":0
+    },
+    {
+        "temperatura":50.6856297481,
+        "presion":89.8038391112,
+        "corriente":13.0432544448,
+        "fallo":0
+    },
+    {
+        "temperatura":39.3769628627,
+        "presion":98.6529658278,
+        "corriente":15.8165055114,
+        "fallo":0
+    },
+    {
+        "temperatura":54.7359243064,
+        "presion":103.587711279,
+        "corriente":11.5948327915,
+        "fallo":0
+    },
+    {
+        "temperatura":40.8057576577,
+        "presion":107.5117852605,
+        "corriente":17.0583112747,
+        "fallo":0
+    },
+    {
+        "temperatura":65.4993440502,
+        "presion":100.3704739021,
+        "corriente":15.9451949648,
+        "fallo":0
+    },
+    {
+        "temperatura":42.1674670766,
+        "presion":108.1430777279,
+        "corriente":15.5120594686,
+        "fallo":0
+    },
+    {
+        "temperatura":46.7793848379,
+        "presion":93.0994927089,
+        "corriente":16.9653819679,
+        "fallo":0
+    },
+    {
+        "temperatura":58.1351721737,
+        "presion":91.4830878032,
+        "corriente":18.3309488889,
+        "fallo":0
+    },
+    {
+        "temperatura":37.6913568357,
+        "presion":99.7222615055,
+        "corriente":17.02874013,
+        "fallo":0
+    },
+    {
+        "temperatura":52.274599346,
+        "presion":101.9203272447,
+        "corriente":11.3182515373,
+        "fallo":0
+    },
+    {
+        "temperatura":63.0714275428,
+        "presion":99.8365262595,
+        "corriente":12.4408460665,
+        "fallo":0
+    },
+    {
+        "temperatura":33.9251676544,
+        "presion":89.6627894998,
+        "corriente":13.7503628446,
+        "fallo":0
+    },
+    {
+        "temperatura":51.8463385853,
+        "presion":99.5543998024,
+        "corriente":15.0521821004,
+        "fallo":0
+    },
+    {
+        "temperatura":52.5988279425,
+        "presion":93.4776524975,
+        "corriente":16.0353180409,
+        "fallo":0
+    },
+    {
+        "temperatura":57.8182287178,
+        "presion":103.3483627442,
+        "corriente":13.5485123737,
+        "fallo":0
+    },
+    {
+        "temperatura":37.6304928912,
+        "presion":101.8329912305,
+        "corriente":15.373533529,
+        "fallo":0
+    },
+    {
+        "temperatura":36.7954338692,
+        "presion":95.3006010684,
+        "corriente":13.4892341353,
+        "fallo":0
+    },
+    {
+        "temperatura":55.2194156562,
+        "presion":97.4306654133,
+        "corriente":13.776964394,
+        "fallo":0
+    },
+    {
+        "temperatura":52.9698467323,
+        "presion":94.7039323906,
+        "corriente":12.1866778063,
+        "fallo":0
+    },
+    {
+        "temperatura":86.2524642517,
+        "presion":69.4985672218,
+        "corriente":22.2303002617,
         "fallo":1
     },
     {
-        "temperatura":92.8569005721,
-        "presion":51.4284244358,
-        "corriente":5.9931960118,
+        "temperatura":86.7322410475,
+        "presion":77.641138564,
+        "corriente":20.9449461832,
         "fallo":1
     },
     {
-        "temperatura":101.8231523579,
-        "presion":49.2910750194,
-        "corriente":7.3790252242,
+        "temperatura":81.5998763921,
+        "presion":62.1141916293,
+        "corriente":22.0723802411,
         "fallo":1
     },
     {
-        "temperatura":85.8538382538,
-        "presion":64.8247241524,
-        "corriente":3.1432767518,
+        "temperatura":86.1612684858,
+        "presion":74.0323721241,
+        "corriente":28.1609253898,
         "fallo":1
     },
     {
-        "temperatura":83.5320511769,
-        "presion":57.7653721467,
-        "corriente":8.199550062,
+        "temperatura":86.4653623665,
+        "presion":65.757939053,
+        "corriente":22.1518033335,
         "fallo":1
     },
     {
-        "temperatura":85.9859436513,
-        "presion":67.1400049409,
-        "corriente":2.0718683007,
+        "temperatura":81.4282429099,
+        "presion":63.6570173419,
+        "corriente":32.8971461945,
         "fallo":1
     },
     {
-        "temperatura":97.3232169416,
-        "presion":64.7323762457,
-        "corriente":4.7723223574,
+        "temperatura":94.3288725557,
+        "presion":69.1437571204,
+        "corriente":26.4799537026,
         "fallo":1
     },
     {
-        "temperatura":92.6300088773,
-        "presion":59.2717108734,
-        "corriente":5.8824758097,
+        "temperatura":87.3691646046,
+        "presion":61.7180614206,
+        "corriente":25.5545083711,
         "fallo":1
     },
     {
-        "temperatura":85.7619183699,
-        "presion":51.5320628193,
-        "corriente":5.4214878016,
+        "temperatura":79.043482514,
+        "presion":65.5708055572,
+        "corriente":22.4249266595,
         "fallo":1
     },
     {
-        "temperatura":94.1061394649,
-        "presion":44.8515277531,
-        "corriente":4.0659507203,
+        "temperatura":88.2827680432,
+        "presion":60.4169768593,
+        "corriente":27.1009296382,
         "fallo":1
     },
     {
-        "temperatura":90.7766203948,
-        "presion":55.5348504793,
-        "corriente":4.6878166245,
+        "temperatura":80.1265916489,
+        "presion":85.7178010633,
+        "corriente":23.2730865213,
         "fallo":1
     },
     {
-        "temperatura":97.7491599243,
-        "presion":68.5639879432,
-        "corriente":4.260498598,
+        "temperatura":88.9354230187,
+        "presion":70.2821084158,
+        "corriente":25.3660294439,
         "fallo":1
     },
     {
-        "temperatura":84.383575249,
-        "presion":62.1409374413,
-        "corriente":4.1159528646,
+        "temperatura":90.792977895,
+        "presion":64.4021959361,
+        "corriente":32.6802536148,
         "fallo":1
     },
     {
-        "temperatura":87.3787028272,
-        "presion":47.5426122129,
-        "corriente":6.2744031455,
+        "temperatura":80.8965884082,
+        "presion":71.7118392859,
+        "corriente":24.7118203008,
         "fallo":1
     },
     {
-        "temperatura":86.8631347749,
-        "presion":61.7318092585,
-        "corriente":5.5355232289,
+        "temperatura":89.8168806462,
+        "presion":69.1013756025,
+        "corriente":28.4478199789,
         "fallo":1
     },
     {
-        "temperatura":78.2918804149,
-        "presion":63.8531737973,
-        "corriente":3.9606356071,
+        "temperatura":87.0639046347,
+        "presion":68.2322432037,
+        "corriente":22.8904707246,
         "fallo":1
     },
     {
-        "temperatura":92.3689622165,
-        "presion":51.161425638,
-        "corriente":6.3493998131,
+        "temperatura":89.1103008,
+        "presion":74.9133336003,
+        "corriente":24.8950345285,
         "fallo":1
     },
     {
-        "temperatura":92.0884421774,
-        "presion":61.5372510595,
-        "corriente":5.4609492813,
+        "temperatura":94.4839649133,
+        "presion":76.0600616804,
+        "corriente":30.3124019069,
         "fallo":1
     },
     {
-        "temperatura":90.0409076531,
-        "presion":60.5820871845,
-        "corriente":6.2192931783,
+        "temperatura":83.77305942,
+        "presion":65.7559908191,
+        "corriente":23.1190988266,
         "fallo":1
     },
     {
-        "temperatura":88.123302933,
-        "presion":48.5702970217,
-        "corriente":5.9444432629,
+        "temperatura":81.2313191782,
+        "presion":65.3934540748,
+        "corriente":30.437345674,
+        "fallo":1
+    },
+    {
+        "temperatura":80.5524278519,
+        "presion":67.7995864228,
+        "corriente":27.1232558064,
+        "fallo":1
+    },
+    {
+        "temperatura":80.9209485752,
+        "presion":51.5846306821,
+        "corriente":23.3125996723,
+        "fallo":1
+    },
+    {
+        "temperatura":84.6144914529,
+        "presion":57.8784715024,
+        "corriente":26.8972232172,
+        "fallo":1
+    },
+    {
+        "temperatura":86.7057598741,
+        "presion":80.9349941396,
+        "corriente":27.9176633489,
+        "fallo":1
+    },
+    {
+        "temperatura":86.3834539967,
+        "presion":83.159741708,
+        "corriente":26.8654298867,
+        "fallo":1
+    },
+    {
+        "temperatura":89.1359162452,
+        "presion":68.0077116835,
+        "corriente":20.2893258403,
+        "fallo":1
+    },
+    {
+        "temperatura":85.0650094594,
+        "presion":74.6124557044,
+        "corriente":22.8185884725,
+        "fallo":1
+    },
+    {
+        "temperatura":92.2676703858,
+        "presion":72.4900012363,
+        "corriente":24.2574440933,
+        "fallo":1
+    },
+    {
+        "temperatura":83.6767158338,
+        "presion":94.6310464676,
+        "corriente":24.7766997127,
+        "fallo":1
+    },
+    {
+        "temperatura":98.6008458329,
+        "presion":78.9565992915,
+        "corriente":26.8620162927,
+        "fallo":1
+    },
+    {
+        "temperatura":88.1283367388,
+        "presion":68.9766592682,
+        "corriente":25.5331030028,
+        "fallo":1
+    },
+    {
+        "temperatura":80.7142122179,
+        "presion":62.3556764752,
+        "corriente":20.9939669239,
+        "fallo":1
+    },
+    {
+        "temperatura":79.6455375097,
+        "presion":57.1484294379,
+        "corriente":26.140593553,
+        "fallo":1
+    },
+    {
+        "temperatura":87.4123620762,
+        "presion":71.6277090869,
+        "corriente":26.8317572359,
+        "fallo":1
+    },
+    {
+        "temperatura":83.8826860734,
+        "presion":63.9491940377,
+        "corriente":26.6793713438,
+        "fallo":1
+    },
+    {
+        "temperatura":88.5700024705,
+        "presion":58.6219703232,
+        "corriente":28.2423421767,
+        "fallo":1
+    },
+    {
+        "temperatura":87.3661881229,
+        "presion":64.8274169261,
+        "corriente":27.5017664636,
+        "fallo":1
+    },
+    {
+        "temperatura":84.6358554367,
+        "presion":61.3476159711,
+        "corriente":26.3775402377,
+        "fallo":1
+    },
+    {
+        "temperatura":80.7660314097,
+        "presion":83.4971330806,
+        "corriente":24.7895028656,
+        "fallo":1
+    },
+    {
+        "temperatura":77.4257638766,
+        "presion":77.0531180556,
+        "corriente":20.0171171995,
+        "fallo":1
+    },
+    {
+        "temperatura":82.7674252397,
+        "presion":69.9362188695,
+        "corriente":26.2888546574,
+        "fallo":1
+    },
+    {
+        "temperatura":89.2819939716,
+        "presion":81.8395531111,
+        "corriente":25.6230630615,
+        "fallo":1
+    },
+    {
+        "temperatura":86.0704687207,
+        "presion":70.6189464612,
+        "corriente":25.8147365116,
+        "fallo":1
+    },
+    {
+        "temperatura":78.7713061064,
+        "presion":63.1097263894,
+        "corriente":21.1697542725,
+        "fallo":1
+    },
+    {
+        "temperatura":85.8659046293,
+        "presion":82.1849926182,
+        "corriente":21.7568303788,
+        "fallo":1
+    },
+    {
+        "temperatura":86.9265868986,
+        "presion":74.3112803495,
+        "corriente":28.15945856,
+        "fallo":1
+    },
+    {
+        "temperatura":80.580712819,
+        "presion":61.7020307654,
+        "corriente":24.8813345384,
+        "fallo":1
+    },
+    {
+        "temperatura":85.7686255297,
+        "presion":68.4772905753,
+        "corriente":27.0445020921,
+        "fallo":1
+    },
+    {
+        "temperatura":85.2910435922,
+        "presion":62.9950539729,
+        "corriente":25.0849551284,
+        "fallo":1
+    },
+    {
+        "temperatura":79.2851485108,
+        "presion":58.9376021523,
+        "corriente":25.0892684185,
+        "fallo":1
+    },
+    {
+        "temperatura":86.7889368017,
+        "presion":77.4094203803,
+        "corriente":27.8148514179,
+        "fallo":1
+    },
+    {
+        "temperatura":87.8039226318,
+        "presion":85.2753331238,
+        "corriente":23.4518658153,
+        "fallo":1
+    },
+    {
+        "temperatura":90.4152562159,
+        "presion":58.8114594094,
+        "corriente":25.2883623308,
+        "fallo":1
+    },
+    {
+        "temperatura":90.2690102602,
+        "presion":74.5037538935,
+        "corriente":23.6131741339,
+        "fallo":1
+    },
+    {
+        "temperatura":78.1116531602,
+        "presion":64.794859447,
+        "corriente":23.6965113177,
+        "fallo":1
+    },
+    {
+        "temperatura":80.3108748004,
+        "presion":66.1029969299,
+        "corriente":24.0724836296,
+        "fallo":1
+    },
+    {
+        "temperatura":87.575176336,
+        "presion":65.2608486061,
+        "corriente":25.6664013149,
+        "fallo":1
+    },
+    {
+        "temperatura":87.5689297546,
+        "presion":63.0880738426,
+        "corriente":23.563754135,
+        "fallo":1
+    },
+    {
+        "temperatura":87.5752384315,
+        "presion":70.3881730236,
+        "corriente":28.7672683767,
+        "fallo":1
+    },
+    {
+        "temperatura":104.2636574533,
+        "presion":63.3523990687,
+        "corriente":22.3161780933,
+        "fallo":1
+    },
+    {
+        "temperatura":87.8544525535,
+        "presion":72.1636546062,
+        "corriente":24.4393850675,
+        "fallo":1
+    },
+    {
+        "temperatura":90.6778282009,
+        "presion":69.5980951244,
+        "corriente":23.6808068252,
+        "fallo":1
+    },
+    {
+        "temperatura":89.7700088175,
+        "presion":68.0884156251,
+        "corriente":29.3409336531,
+        "fallo":1
+    },
+    {
+        "temperatura":88.2569562565,
+        "presion":62.7394907037,
+        "corriente":25.5896643295,
+        "fallo":1
+    },
+    {
+        "temperatura":83.4236537768,
+        "presion":65.3858293555,
+        "corriente":28.0955336184,
+        "fallo":1
+    },
+    {
+        "temperatura":88.7948461025,
+        "presion":76.0431298066,
+        "corriente":20.5433188809,
+        "fallo":1
+    },
+    {
+        "temperatura":81.1358739273,
+        "presion":74.007337501,
+        "corriente":25.8011507976,
+        "fallo":1
+    },
+    {
+        "temperatura":83.8159069663,
+        "presion":62.1795580416,
+        "corriente":27.6688923869,
+        "fallo":1
+    },
+    {
+        "temperatura":82.5731822609,
+        "presion":70.7946584434,
+        "corriente":25.2468519678,
+        "fallo":1
+    },
+    {
+        "temperatura":85.4093706969,
+        "presion":76.011096987,
+        "corriente":28.1964411252,
+        "fallo":1
+    },
+    {
+        "temperatura":96.5732928334,
+        "presion":56.644757751,
+        "corriente":23.4481346497,
+        "fallo":1
+    },
+    {
+        "temperatura":75.663674037,
+        "presion":74.346881539,
+        "corriente":29.2280423206,
+        "fallo":1
+    },
+    {
+        "temperatura":88.4313009519,
+        "presion":64.6990099284,
+        "corriente":31.8966943709,
+        "fallo":1
+    },
+    {
+        "temperatura":76.9364206441,
+        "presion":74.5647893487,
+        "corriente":23.9114843187,
+        "fallo":1
+    },
+    {
+        "temperatura":82.6403406711,
+        "presion":63.8939267477,
+        "corriente":23.6634924358,
+        "fallo":1
+    },
+    {
+        "temperatura":98.7116047757,
+        "presion":41.9511789934,
+        "corriente":7.1800767157,
+        "fallo":1
+    },
+    {
+        "temperatura":90.5142401528,
+        "presion":43.7245756212,
+        "corriente":7.3693582186,
+        "fallo":1
+    },
+    {
+        "temperatura":81.3780417766,
+        "presion":60.4808494666,
+        "corriente":4.2157099593,
+        "fallo":1
+    },
+    {
+        "temperatura":84.2775703259,
+        "presion":62.5972250172,
+        "corriente":4.3697197744,
+        "fallo":1
+    },
+    {
+        "temperatura":95.4367819915,
+        "presion":50.956833749,
+        "corriente":4.5773230867,
+        "fallo":1
+    },
+    {
+        "temperatura":84.1570669463,
+        "presion":66.3859245878,
+        "corriente":2.9833242334,
+        "fallo":1
+    },
+    {
+        "temperatura":91.7316687167,
+        "presion":43.3847993773,
+        "corriente":3.6220220803,
+        "fallo":1
+    },
+    {
+        "temperatura":90.3645747192,
+        "presion":59.3392020135,
+        "corriente":3.4937888499,
+        "fallo":1
+    },
+    {
+        "temperatura":84.7871972192,
+        "presion":47.8898380024,
+        "corriente":3.8483036523,
+        "fallo":1
+    },
+    {
+        "temperatura":107.1515527146,
+        "presion":53.481638922,
+        "corriente":4.9479726689,
+        "fallo":1
+    },
+    {
+        "temperatura":95.0713521785,
+        "presion":60.4739867132,
+        "corriente":5.3513220988,
+        "fallo":1
+    },
+    {
+        "temperatura":73.7988593067,
+        "presion":51.3958663472,
+        "corriente":7.3257507392,
+        "fallo":1
+    },
+    {
+        "temperatura":91.4916345182,
+        "presion":56.1544445577,
+        "corriente":3.5024689389,
+        "fallo":1
+    },
+    {
+        "temperatura":84.7057082819,
+        "presion":70.0629280921,
+        "corriente":6.4764835977,
+        "fallo":1
+    },
+    {
+        "temperatura":96.8194666784,
+        "presion":54.2310813048,
+        "corriente":4.6790167337,
+        "fallo":1
+    },
+    {
+        "temperatura":83.6598340925,
+        "presion":68.3569211207,
+        "corriente":4.9258044355,
+        "fallo":1
+    },
+    {
+        "temperatura":89.0821084683,
+        "presion":48.7029314534,
+        "corriente":6.0122292382,
+        "fallo":1
+    },
+    {
+        "temperatura":94.0398982318,
+        "presion":65.2980417792,
+        "corriente":3.3159169677,
+        "fallo":1
+    },
+    {
+        "temperatura":96.9260415534,
+        "presion":74.4156862066,
+        "corriente":5.5736146193,
+        "fallo":1
+    },
+    {
+        "temperatura":80.3976287436,
+        "presion":35.2835549987,
+        "corriente":5.2496783123,
+        "fallo":1
+    },
+    {
+        "temperatura":87.3239901133,
+        "presion":52.0310474453,
+        "corriente":5.738676896,
+        "fallo":1
+    },
+    {
+        "temperatura":86.2004375107,
+        "presion":65.7707212718,
+        "corriente":5.4337529659,
+        "fallo":1
+    },
+    {
+        "temperatura":84.7733661394,
+        "presion":57.9695461396,
+        "corriente":8.6829502099,
+        "fallo":1
+    },
+    {
+        "temperatura":104.1236339222,
+        "presion":63.7114587337,
+        "corriente":4.0433900236,
+        "fallo":1
+    },
+    {
+        "temperatura":93.2398536877,
+        "presion":53.9601481328,
+        "corriente":4.2035045675,
+        "fallo":1
+    },
+    {
+        "temperatura":79.9129283653,
+        "presion":60.8658978747,
+        "corriente":4.0652892104,
+        "fallo":1
+    },
+    {
+        "temperatura":97.3428955764,
+        "presion":58.4432276461,
+        "corriente":4.1667843213,
+        "fallo":1
+    },
+    {
+        "temperatura":106.9772495761,
+        "presion":71.6778206166,
+        "corriente":4.043919309,
+        "fallo":1
+    },
+    {
+        "temperatura":98.2597220844,
+        "presion":62.544208433,
+        "corriente":6.7835247967,
+        "fallo":1
+    },
+    {
+        "temperatura":77.8450402724,
+        "presion":63.3760266208,
+        "corriente":7.130756372,
+        "fallo":1
+    },
+    {
+        "temperatura":86.1261274171,
+        "presion":55.8812303388,
+        "corriente":4.1438805594,
+        "fallo":1
+    },
+    {
+        "temperatura":100.1352891935,
+        "presion":55.1239377593,
+        "corriente":3.7514666403,
+        "fallo":1
+    },
+    {
+        "temperatura":84.338644275,
+        "presion":55.6744181218,
+        "corriente":5.7071233346,
+        "fallo":1
+    },
+    {
+        "temperatura":93.5505554252,
+        "presion":63.9445214238,
+        "corriente":4.1716654336,
+        "fallo":1
+    },
+    {
+        "temperatura":96.1970724274,
+        "presion":55.7901551918,
+        "corriente":5.9493977266,
+        "fallo":1
+    },
+    {
+        "temperatura":82.5845562274,
+        "presion":62.897748569,
+        "corriente":5.3043845313,
+        "fallo":1
+    },
+    {
+        "temperatura":89.5237971515,
+        "presion":80.7540079865,
+        "corriente":2.7263838275,
+        "fallo":1
+    },
+    {
+        "temperatura":64.0698612794,
+        "presion":68.7112470343,
+        "corriente":7.321257802,
+        "fallo":1
+    },
+    {
+        "temperatura":81.8048988693,
+        "presion":56.7397646783,
+        "corriente":7.6938165096,
+        "fallo":1
+    },
+    {
+        "temperatura":87.9794547889,
+        "presion":72.0121392216,
+        "corriente":4.0808169643,
+        "fallo":1
+    },
+    {
+        "temperatura":80.0177345443,
+        "presion":55.9192462698,
+        "corriente":4.4184476601,
+        "fallo":1
+    },
+    {
+        "temperatura":103.0592904315,
+        "presion":39.6187546482,
+        "corriente":5.4287980861,
+        "fallo":1
+    },
+    {
+        "temperatura":78.5588689763,
+        "presion":49.9191368908,
+        "corriente":5.501685185,
+        "fallo":1
+    },
+    {
+        "temperatura":86.4796441064,
+        "presion":41.2920807897,
+        "corriente":5.987816409,
+        "fallo":1
+    },
+    {
+        "temperatura":91.0459246183,
+        "presion":56.4848651596,
+        "corriente":8.0153068081,
+        "fallo":1
+    },
+    {
+        "temperatura":101.5301863125,
+        "presion":60.1841837919,
+        "corriente":4.7345791588,
+        "fallo":1
+    },
+    {
+        "temperatura":78.5131027906,
+        "presion":76.7643731228,
+        "corriente":3.8025541332,
+        "fallo":1
+    },
+    {
+        "temperatura":99.3053100172,
+        "presion":63.2692737376,
+        "corriente":2.931021158,
+        "fallo":1
+    },
+    {
+        "temperatura":90.0818644882,
+        "presion":57.8089947119,
+        "corriente":3.9036049401,
+        "fallo":1
+    },
+    {
+        "temperatura":82.1479307916,
+        "presion":68.2940558118,
+        "corriente":4.9503095407,
+        "fallo":1
+    },
+    {
+        "temperatura":93.6968277941,
+        "presion":37.8886469099,
+        "corriente":7.6918367953,
+        "fallo":1
+    },
+    {
+        "temperatura":91.5924775646,
+        "presion":62.3561455811,
+        "corriente":4.2235830514,
+        "fallo":1
+    },
+    {
+        "temperatura":85.1982649827,
+        "presion":67.7086519389,
+        "corriente":5.3356819275,
+        "fallo":1
+    },
+    {
+        "temperatura":90.5584166799,
+        "presion":45.2141375422,
+        "corriente":4.9753656559,
+        "fallo":1
+    },
+    {
+        "temperatura":86.9174912251,
+        "presion":71.4375404321,
+        "corriente":6.7825899102,
+        "fallo":1
+    },
+    {
+        "temperatura":90.908138762,
+        "presion":63.3849640749,
+        "corriente":8.7903986388,
+        "fallo":1
+    },
+    {
+        "temperatura":95.2970453962,
+        "presion":55.847120861,
+        "corriente":4.2036968406,
+        "fallo":1
+    },
+    {
+        "temperatura":102.6881345292,
+        "presion":66.3278186611,
+        "corriente":4.2658408362,
+        "fallo":1
+    },
+    {
+        "temperatura":80.0974760094,
+        "presion":82.706928578,
+        "corriente":6.5662413156,
+        "fallo":1
+    },
+    {
+        "temperatura":107.0642669973,
+        "presion":61.8186625506,
+        "corriente":6.0228372344,
+        "fallo":1
+    },
+    {
+        "temperatura":74.3832976038,
+        "presion":62.482205863,
+        "corriente":7.7700609886,
+        "fallo":1
+    },
+    {
+        "temperatura":88.7857192397,
+        "presion":55.4063910046,
+        "corriente":5.875892278,
+        "fallo":1
+    },
+    {
+        "temperatura":94.7065376519,
+        "presion":51.5015563054,
+        "corriente":4.4610618638,
+        "fallo":1
+    },
+    {
+        "temperatura":92.2479349419,
+        "presion":68.3033581654,
+        "corriente":5.885982246,
+        "fallo":1
+    },
+    {
+        "temperatura":85.0184038414,
+        "presion":51.4391617409,
+        "corriente":6.6630553709,
+        "fallo":1
+    },
+    {
+        "temperatura":88.3350219971,
+        "presion":60.7156623722,
+        "corriente":6.2307232718,
+        "fallo":1
+    },
+    {
+        "temperatura":86.0559925227,
+        "presion":55.2234255323,
+        "corriente":5.7609110467,
+        "fallo":1
+    },
+    {
+        "temperatura":85.2850819444,
+        "presion":64.7897982575,
+        "corriente":6.6000120344,
+        "fallo":1
+    },
+    {
+        "temperatura":96.7968167762,
+        "presion":63.3366210529,
+        "corriente":6.7539433857,
+        "fallo":1
+    },
+    {
+        "temperatura":92.8561238877,
+        "presion":70.3753994426,
+        "corriente":7.0732384866,
+        "fallo":1
+    },
+    {
+        "temperatura":84.4567232379,
+        "presion":54.8998360115,
+        "corriente":5.9730648314,
+        "fallo":1
+    },
+    {
+        "temperatura":97.1967990035,
+        "presion":57.3012506471,
+        "corriente":4.7493228795,
+        "fallo":1
+    },
+    {
+        "temperatura":92.458396167,
+        "presion":50.2123628422,
+        "corriente":5.2200705296,
+        "fallo":1
+    },
+    {
+        "temperatura":96.5028969507,
+        "presion":55.5570673992,
+        "corriente":6.8097634498,
+        "fallo":1
+    },
+    {
+        "temperatura":95.0370307354,
+        "presion":63.7730049304,
+        "corriente":3.7745964935,
         "fallo":1
     }
 ]
