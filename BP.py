@@ -32,7 +32,7 @@ class RedDeteccionFallas:
 
         # Almacenar datos de entrenamiento y etiquetas
         self.datos_entrenamiento = datos_entrada  # Datos de entrada para entrenamiento
-        self.respuestas_reales = respuestas_reales # Etiquetas reales asociadas
+        self.respuestas_reales = respuestas_reales # Etiquetas reales falla o no falla 
         self.neuronas_ocultas = neuronas_ocultas # Número de neuronas en la capa oculta
         self.caracteristicas_entrada = datos_entrada.shape[1] # Número de características (3: temperatura, presión, corriente)
         self.activacion = activacion # Función de activación
